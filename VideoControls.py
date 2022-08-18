@@ -8,8 +8,8 @@ class VideoController:
 
         self.shows = []
         self.commercials = []
-        self.showsDirectory = "C:/Users/tbhol/codingstuff/1995NostalgiaVideoPlayer/1995NostalgiaVideoPlayer/shows"
-        self.commercialsDirectory = "C:/Users/tbhol/codingstuff/1995NostalgiaVideoPlayer/1995NostalgiaVideoPlayer/commercials"
+        self.showsDirectory = "Path Goes Here"
+        self.commercialsDirectory = "Path goes here"
 
     def add_shows(self):
         self.shows = os.listdir(self.showsDirectory)
